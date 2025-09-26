@@ -1,0 +1,45 @@
+{
+  "name": "powergrid-ml-backend",
+  "version": "1.0.0",
+  "description": "Flask ML Backend for PowerGrid Project Management System with integrated machine learning models for cost overrun, delay, and risk prediction",
+  "main": "app.py",
+  "scripts": {
+    "start": "python app.py",
+    "dev": "python -m flask run --debug --host=0.0.0.0 --port=5000",
+    "test": "python -m pytest tests/",
+    "train-models": "python scripts/train_models.py",
+    "migrate": "python -m flask db upgrade",
+    "init-db": "python -m flask db init",
+    "seed-data": "python scripts/seed_database.py",
+    "lint": "flake8 .",
+    "format": "black ."
+  },
+  "keywords": [
+    "flask",
+    "machine-learning",
+    "powergrid",
+    "project-management",
+    "prediction",
+    "risk-assessment",
+    "ml-backend"
+  ],
+  "author": "PowerGrid Development Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shreya-0510/NyayAI.git"
+  },
+  "engines": {
+    "python": ">=3.8"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "flask": {
+    "app": "app.py",
+    "env": "development"
+  },
+  "python_requirements": {
+    "file": "requirements.txt",
+    "note": "Install Python dependencies using: pip install -r requirements.txt"
+  }
+}

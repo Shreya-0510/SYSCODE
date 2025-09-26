@@ -1,0 +1,27 @@
+# Flask Backend with ML Models - Production Requirements
+# Core Flask Framework
+Flask==3.0.3
+Flask-RESTful==0.3.11
+Flask-CORS==4.0.1
+Flask-SQLAlchemy==3.1.1
+Flask-Migrate==4.0.7
+
+# Machine Learning & Data Processing
+scikit-learn==1.6.1
+pandas==2.2.3
+numpy==2.1.1
+joblib==1.4.2
+xgboost==2.1.1
+lightgbm==4.5.0
+
+# Database
+SQLAlchemy==2.0.36
+
+# Development & Utilities
+python-dotenv==1.0.1
+gunicorn==23.0.0
+Werkzeug==3.0.4
+
+# Code Quality (Optional - can remove if not using)
+black==24.8.0
+flake8==7.1.1
