@@ -1,4 +1,4 @@
-# PowerGrid – AI-Powered Project Intelligence System (SIH Internal Hackathon)
+# PowerGrid – AI-Powered Project Intelligence System
 
 Predictive analytics platform to forecast **cost overruns** and **delays** for PGCIL power transmission projects.
 
